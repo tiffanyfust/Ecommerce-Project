@@ -7,10 +7,26 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
 
+
 function App() {
   return (
     <div className="App">
       <header>
+        <div className='alertBar'>
+          <ul>
+            <li><FontAwesomeIcon icon="fa-brands fa-facebook-f" /></li>
+            <li><FontAwesomeIcon icon="fa-brands fa-instagram" /></li>
+            <li><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></li>
+            <li><FontAwesomeIcon icon="fa-brands fa-twitter" /></li>
+            <li></li>
+          </ul>
+          <div id='news'>
+            <p>Free Shipping On A Purchase Value Of $ 200</p>
+          </div>
+          <div id='phone'>
+            <p>Let's Talk! +57 444 11 00 35</p>
+          </div>
+        </div>
         <div>
           <img src={logo} alt="The Ultras Logo"></img>
           <img src={tagline} alt="Casual Wear Store"></img>
